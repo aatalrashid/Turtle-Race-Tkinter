@@ -8,7 +8,7 @@ Introduction
 In this project you will use loops to create a racing turtle game and draw a race
 track.
 
-================================================================
+================================================================</br>
 Step 1: Race track
 
 You’re going to create a game with racing turtles. First they’ll need a race track.
@@ -17,7 +17,7 @@ Open the blank Python template Trinket: jumpto.cc/python-new.
 Add the following code to draw a line using the ‘turtle’:
 
 
-############################
+############################</br>
 1
 The turtle write function writes text to the screen.
 Try it:
@@ -32,7 +32,7 @@ numbers, from 0 up to 4. To get it to also return 5 you’ll need to use
 range(6) :
 
 
-##############################
+##############################</br>
 2
 Move the turtle to the top left instead:
 right(90) makes the turtle turn right 90 degrees (a right angle.) Moving forward(10)
@@ -43,7 +43,7 @@ Instead of drawing a line horizontally, let’s draw vertical lines to create a
 track:
 
 
-#################################
+#################################</br>
 3
 before putting the pen down leaves a small gap between the number and the
 start of the line. After drawing the line you lift up the pen and go backward(160) the
@@ -58,16 +58,16 @@ It looks neater if you centre the numbers:
 And you can speed up the turtle so it draws faster:
 
 
-####################################
+####################################</br>
 4
 If you want to make the turtle go even faster you can use
 speed(0) .
 
 
-
+</br></br>
 
 ================================================= STEP 2 ============================================================
-
+</br>
 
 Step 2: Racing turtles
 Now for the fun bit. Let’s add some racing turtles. It would be really boring if the
@@ -83,7 +83,7 @@ your script (but make sure it’s not indented):
 Let’s send the turtle to the starting line:
 
 
-#######################################
+#######################################</br>
 5
 Now you need to make the turtle race by moving a random number of
 steps at a time. You’ll need the randint function from the Python random
@@ -94,7 +94,7 @@ each turn.
 One turtle isn’t much of a race! Let’s add another one:
 
 
-######################################
+######################################</br>
 6
 Note that the code for moving the blue turtle needs to be inthe same for loop as
 the code for moving the red turtle so that they each make a move every turn.
@@ -109,7 +109,7 @@ magenta and brown - or you can go to jumpto.cc/colours and
 pick any colour you like!
 
 
-#######################################
+#######################################</br>
 7
 Save Your Project
 Challenge: Do a twirl
@@ -128,9 +128,9 @@ solid?
 Hint: Find the code that draws a straight line. Try using:for ,
 forward() , penup() and pendown()
 
-#################################################
+#################################################</br>
 
-Email: trevor@code4missions.com
-Twitter: @trevornathan
-LinkedIn: atwijukire-trevor-a10b5b184
-Facebook: Trevor Nathan
+Email: trevor@code4missions.com </br>
+Twitter: @trevornathan </br>
+LinkedIn: atwijukire-trevor-a10b5b184 </br>
+Facebook: Trevor Nathan </br>
