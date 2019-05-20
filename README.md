@@ -8,8 +8,9 @@ Introduction
 In this project you will use loops to create a racing turtle game and draw a race
 track.
 
-#####################################
+================================================================
 Step 1: Race track
+
 You’re going to create a game with racing turtles. First they’ll need a race track.
 Activity Checklist
 Open the blank Python template Trinket: jumpto.cc/python-new.
@@ -47,6 +48,8 @@ track:
 before putting the pen down leaves a small gap between the number and the
 start of the line. After drawing the line you lift up the pen and go backward(160) the
 length of the line plus the gap.
+
+
 Save Your Project
 Challenge: More lines
 Can you change your code so that the track lines go right
@@ -59,10 +62,18 @@ And you can speed up the turtle so it draws faster:
 4
 If you want to make the turtle go even faster you can use
 speed(0) .
+
+
+
+
+================================================= STEP 2 ============================================================
+
+
 Step 2: Racing turtles
 Now for the fun bit. Let’s add some racing turtles. It would be really boring if the
 turtles did the same thing every time so they will move a random number of steps
 each turn. The winner is the turtle that gets the furthest in 100 turns.
+
 Activity Checklist
 The first line creates a turtle called ‘ada’. The next lines set the colour and shape
 of the turtle. Now it really looks like a turtle!
@@ -85,10 +96,9 @@ One turtle isn’t much of a race! Let’s add another one:
 
 ######################################
 6
-This content is for non-commercial use only and we reserve the right at any time to withdraw permission for use. © 2012-2016 Raspberry Pi Foundation. UK
-Registered Charity 1129409
 Note that the code for moving the blue turtle needs to be inthe same for loop as
 the code for moving the red turtle so that they each make a move every turn.
+
 Save Your Project
 Challenge: Race time!
 Now you’re ready to race. Pick a turtle and an opponent and
@@ -101,8 +111,6 @@ pick any colour you like!
 
 #######################################
 7
-This content is for non-commercial use only and we reserve the right at any time to withdraw permission for use. © 2012-2016 Raspberry Pi Foundation. UK
-Registered Charity 1129409
 Save Your Project
 Challenge: Do a twirl
 Can you use a for turn in range(): loop to make each turtle do a
@@ -110,6 +118,7 @@ Can you use a for turn in range(): loop to make each turtle do a
 to make sure they are facing in the right direction at the start
 of the race!
 ada.right(36) will turn the red turtle right by 36 degrees.
+
 Hint: A full turn is 360 degrees. A turtle could turn right 10
 degrees 36 times, or left 5 degrees 72 times, or any other
 numbers make 360!
