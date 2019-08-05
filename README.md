@@ -69,7 +69,7 @@ speed(0) .
 ================================================= STEP 2 ============================================================
 </br>
 
-Step 2: Racing turtles
+Step 2: Racing turtles (action)
 Now for the fun bit. Let’s add some racing turtles. It would be really boring if the
 turtles did the same thing every time so they will move a random number of steps
 each turn. The winner is the turtle that gets the furthest in 100 turns.
